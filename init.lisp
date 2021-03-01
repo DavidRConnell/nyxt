@@ -69,7 +69,7 @@
                              scheme:vi-normal *my-global-keymap*
                              scheme:vi-insert *my-global-keymap*))))
 
-(define-configuration buffer
+(define-configuration (buffer web-buffer)
   ((default-modes
     (append '(my-global-mode my-states-mode vi-normal-mode)
             %slot-default))))
